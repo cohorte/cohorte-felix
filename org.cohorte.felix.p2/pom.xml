@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.cohorte</groupId>
+	<version>5.4.0</version>
+	<artifactId>com.cohorte.iot.p2</artifactId>
+
+	<packaging>pom</packaging>
+
+	<properties>		
+       	<tycho-version>1.0.0</tycho-version>                
+	</properties>
+
+	<build>
+		<plugins>    
+		    <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.7</version>
+				<executions>
+					<execution>
+						<id>copy-files</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<target name="copy category.xml file to ${basedir}/target">
+								<!-- 
+								<mkdir dir="${basedir}/target" />
+								 -->
+								<copy todir="${basedir}/target">									
+									<fileset dir="${basedir}" includes="category.xml">										
+									</fileset>																				
+								</copy>
+							</target>									
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>	            
+			<plugin>
+				<groupId>org.eclipse.tycho.extras</groupId>
+				<artifactId>tycho-p2-extras-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<executions>
+					<execution>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>publish-features-and-bundles</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<sourceLocation>${basedir}/sources</sourceLocation>
+					<artifactRepositoryLocation>${basedir}/target</artifactRepositoryLocation>
+					<metadataRepositoryLocation>${basedir}/target</metadataRepositoryLocation>
+					<compress>true</compress>
+					<append>true</append>
+					<publishArtifacts>true</publishArtifacts>
+				</configuration>
+			</plugin>				
+		</plugins>
+	</build>	
+
+
+</project>

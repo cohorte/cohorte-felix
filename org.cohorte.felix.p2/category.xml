@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <bundle id="com.cohorte.iot.api" version="1.5.0">
+      <category name="iotpack_core"/>
+   </bundle>
+   <bundle id="org.mongodb.mongo-java-driver" version="3.3.0">
+      <category name="mongodb"/>
+   </bundle>
+   <bundle id="org.cohorte.utilities.config" version="1.1.0">
+      <category name="cohorte_ext"/>
+   </bundle>
+   <bundle id="com.eclipsesource.jaxrs.jersey-all" version="2.22.2">
+      <category name="jersey"/>
+   </bundle>
+   <bundle id="com.eclipsesource.jaxrs.provider.gson" version="2.3.0.201506221200">
+      <category name="jersey"/>
+   </bundle>
+   <bundle id="com.eclipsesource.jaxrs.provider.multipart" version="2.2.0.201506221200">
+      <category name="jersey"/>
+   </bundle>
+   <bundle id="com.eclipsesource.jaxrs.publisher" version="5.3.1.201602281253">
+      <category name="jersey"/>
+   </bundle>
+   <bundle id="com.google.gson" version="2.3.1">
+      <category name="jersey"/>
+   </bundle>
+   <bundle id="org.apache.commons.logging" version="1.2.0">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.felix.bundlerepository" version="2.0.6">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.felix.framework" version="5.4.0">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.felix.gogo.command" version="0.16.0">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.felix.gogo.runtime" version="0.16.2">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.felix.gogo.shell" version="0.10.0">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.felix.http.jetty" version="3.2.4">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.felix.http.servlet-api" version="1.1.2">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.felix.ipojo" version="1.12.1">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.felix.ipojo.gogo" version="1.12.1">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.felix.ipojo.handler.jmx" version="1.4.0">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.felix.log" version="1.0.1">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.httpcomponents.httpclient" version="4.5.2">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.httpcomponents.httpcore" version="4.4.4">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.servicemix.bundles.commons-codec" version="1.3.0.4">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.cohorte.composer.api" version="3.0.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.composer.isolate" version="3.0.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.herald.api" version="1.0.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.herald.core" version="1.0.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.herald.eventapi" version="1.0.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.herald.http" version="1.0.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.herald.rpc" version="1.0.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.herald.shell" version="1.0.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.herald.xmpp" version="1.0.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.isolates.discovery.local" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.pyboot" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.pyboot.api" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.pyboot.config" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.pyboot.shell.agent" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.remote.api" version="1.2.1">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.remote.core" version="1.2.1">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.remote.utilities" version="1.2.1">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.shell.osgi" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.shell.remote" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.cohorte.utilities" version="1.0.6">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.jabsorb.ng" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.psem2m.isolates.base" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.psem2m.isolates.constants" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.psem2m.isolates.loggers" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.psem2m.isolates.slave.agent" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="org.psem2m.status.storage" version="1.1.0">
+      <category name="cohorte"/>
+   </bundle>
+   <bundle id="log4j" version="1.2.16">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="osgi.cmpn" version="5.0.0.201305092017">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="slf4j.api" version="1.6.2">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="slf4j.jdk14" version="1.6.2">
+      <category name="felix"/>
+   </bundle>
+   <bundle id="org.apache.shiro.core" version="1.3.2">
+      <category name="shiro"/>
+   </bundle>
+   <bundle id="org.apache.shiro.ehcache" version="1.3.2">
+      <category name="shiro"/>
+   </bundle>
+   <bundle id="net.sf.ehcache" version="2.10.3">
+      <category name="shiro"/>
+   </bundle>
+   <bundle id="slf4j.api" version="1.7.21">
+      <category name="shiro"/>
+   </bundle>
+   <bundle id="com.cohorte.iot.aggregator.core" version="1.5.0">
+      <category name="iotpack_core"/>
+   </bundle>
+   <bundle id="com.cohorte.iot.aggregator.restapi" version="1.5.0">
+      <category name="iotpack_core"/>
+   </bundle>
+   <bundle id="com.cohorte.iot.aggregator.storage.mongodb" version="1.5.0">
+      <category name="iotpack_core"/>
+   </bundle>
+   <bundle id="com.cohorte.iot.aggregator.webconsole" version="1.5.0">
+      <category name="iotpack_core"/>
+   </bundle>
+   <bundle id="com.cohorte.iot.demo.meteo" version="1.5.0">
+      <category name="iotpack_core"/>
+   </bundle>
+   <bundle id="com.cohorte.iot.features.test" version="1.5.0.qualifier">
+      <category name="iotpack_core"/>
+   </bundle>
+   <bundle id="com.cohorte.iot.rawdata.api" version="1.5.0">
+      <category name="iotpack_core"/>
+   </bundle>
+   <bundle id="com.cohorte.iot.rawdata.orange" version="1.5.0">
+      <category name="iotpack_core"/>
+   </bundle>
+   <bundle id="com.cohorte.iot.rawdata.puller" version="1.5.0">
+      <category name="iotpack_core"/>
+   </bundle>
+   <bundle id="com.cohorte.iot.rawdata.receiver" version="1.5.0">
+      <category name="iotpack_core"/>
+   </bundle>
+   <bundle id="com.cohorte.iot.libs.java-jwt" version="3.2.0">
+      <category name="libs"/>
+   </bundle>   
+   <category-def name="cohorte_ext" label="Cohorte Extra Bundles"/>
+   <category-def name="jersey" label="Jersey Bundles"/>
+   <category-def name="libs" label="Libs Bundles"/>
+   <category-def name="mongodb" label="Mongodb Bundles"/>
+   <category-def name="iotpack_core" label="IoTPack Core Bundles"/>
+   <category-def name="cohorte" label="Cohorte Bundles"/>
+   <category-def name="felix" label="Felix Bundles"/>
+   <category-def name="shiro" label="Shiro Bundles"/>
+</site>
