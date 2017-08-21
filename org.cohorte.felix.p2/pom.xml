@@ -25,14 +25,8 @@
 							<goal>run</goal>
 						</goals>
 						<configuration>
-							<target name="copy category.xml file to ${basedir}/target">
-								<!-- 
-								<mkdir dir="${basedir}/target" />
-								 -->
-								<copy todir="${basedir}/target">									
-									<fileset dir="${basedir}" includes="category.xml">										
-									</fileset>																				
-								</copy>
+							<target name="copy category.xml file to target">		
+								<copy file="category.xml" todir="${project.build.directory}"/>								
 							</target>									
 						</configuration>
 					</execution>
