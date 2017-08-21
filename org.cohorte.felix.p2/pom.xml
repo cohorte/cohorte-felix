@@ -54,7 +54,7 @@
 					<sourceLocation>${basedir}/sources</sourceLocation>
 					<artifactRepositoryLocation>${basedir}/target</artifactRepositoryLocation>
 					<metadataRepositoryLocation>${basedir}/target</metadataRepositoryLocation>
-					<compress>true</compress>
+					<compress>false</compress>
 					<append>true</append>
 					<publishArtifacts>true</publishArtifacts>
 				</configuration>
